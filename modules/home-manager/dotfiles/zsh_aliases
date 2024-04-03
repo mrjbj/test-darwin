@@ -1,0 +1,6 @@
+
+alias ls="eza --color=auto -F"
+alias cat="bat"
+alias br="broot"
+alias nixswitch="darwin-rebuild switch --flake ~/GitData/nix/macos/.#Jasons-Virtual-Machine"
+alias nixup="pushd ~/GitData/nix/macos; nix flake update; nixswitch; popd;"
